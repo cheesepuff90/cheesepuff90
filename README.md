@@ -6,7 +6,7 @@ I’m currently an undergraduate senior at Vanderbilt University majoring in App
 I work as a Machine Learning Research Assistant at the [Tovar Brain-Inspired AI Lab](https://tovarlab.org/), where I help build and analyze neuro-inspired models.  
 I also serve as the lead engineer of **TriMed**, a startup building a mobile app to optimize emergency ride dispatch and routing.
 
-[My Resume](./Do_Hun_Kim_Resume)
+[My Resume](./Do_Hun_Kim_Resume.pdf)
 
 ---
 
