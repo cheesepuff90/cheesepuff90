@@ -1,4 +1,4 @@
-# Hello, I'm Grace Ko 👋
+# Hello, I'm Do Hun Kim 👋
 
 I am a passionate software engineer with experience in full-stack web and app development.
 
