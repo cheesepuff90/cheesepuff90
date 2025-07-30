@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Do Hun Kim</h1>
+<h1>Hi 👋, I'm Do Hun Kim</h1>
 <p align="center">
   Passionate software engineer with experience in full-stack web and app development.
 </p>
