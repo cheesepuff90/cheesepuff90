@@ -41,7 +41,7 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 
 ---
 
-## 📌 Pinned Projects
+## 📌 Projects & Research
 
 ### TriMed Driver App
 - **Problem:** Emergency drivers needed a real-time dispatch and map interface.
@@ -53,10 +53,73 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 - **Problem:** College students lacked a platform to review schools and internships.
 - **Solution:** Built an iOS social network app inspired by Reddit + Glassdoor.
 - **Result:** Community-driven posting, ratings, and search features implemented.
-- **Stack:** Objective-C, React Native, Node.js, MongoDB
+- **Stack:** React Native, Node.js, Tailwind CSS, AppWrite
 
-*More projects available on my GitHub and resume.*
+### CHERground POS
+## Problem
+Needed to create a backend for a web application that could securely manage user authentication, efficiently handle product and cart data, and be modular and scalable for real-world production use.
 
----
+## Solution
+Developed a REST API backend using Node.js, TypeScript, and Express, with JWT-based authentication to provide secure user sessions. Data is stored in a MySQL database using TypeORM for robust and type-safe data management. The architecture applies dependency injection for clean separation of concerns and maintainability. The backend is designed to be easily containerized and ready for deployment with Docker.
 
-*This README is synced with my resume. Let’s connect!*
+## Result
+- Delivered secure and reliable user authentication and authorization with JWT.
+- Enabled efficient and scalable data management for users, products, carts, and more with MySQL and TypeORM.
+- Achieved modular and maintainable code architecture using TypeScript and dependency injection.
+- Simplified deployment and scaling via Docker compatibility.
+- Provided RESTful endpoints for seamless frontend integration.
+
+## Stack Used
+- Node.js
+- TypeScript
+- Express
+- REST API
+- MySQL
+- TypeORM
+- JWT Authentication
+- Inversify (Dependency Injection)
+- Docker (deployment-ready)
+
+
+### Movie Ticketing Web App (Bootcamp)
+## Problem
+Needed to design a backend for a web service that could securely manage user authentication, efficiently store and retrieve data, and be easily scalable and maintainable in production.
+
+## Solution
+Built a REST API backend using Python and Django, implementing JWT-based authentication for secure user sessions. Data is stored persistently in MySQL, managed via AWS RDS. The backend service is containerized using Docker, enabling consistent deployment and simplified scaling. The containers are deployed on AWS EC2 for robust, distributed infrastructure.
+
+## Result
+- Delivered secure and reliable user authentication and authorization.
+- Achieved efficient and scalable data management using AWS RDS and MySQL.
+- Simplified deployment and maintenance through Docker containerization.
+- Leveraged AWS EC2 for easy scaling and high availability.
+- Enabled seamless integration with frontend services via RESTful endpoints.
+
+## Stack Used
+- Python
+- Django
+- REST API
+- MySQL (AWS RDS)
+- JWT Authentication
+- Docker
+- AWS EC2
+
+### E-commerce Web App (Bootcamp)
+## Problem
+Building a scalable, maintainable backend for a web service with secure user authentication and efficient data management.
+
+## Solution
+Developed a REST API backend using Python, with JWT-based authentication and MySQL for persistent data storage. The system is distributed and hosted on AWS EC2, with MySQL managed via AWS RDS.
+
+## Result
+- Achieved reliable user authentication and authorization.
+- Enabled easy scaling and maintenance via AWS infrastructure.
+- Supported seamless integration with frontend services.
+
+## Stack Used
+- Python
+- Django
+- REST API
+- MySQL (AWS RDS)
+- JWT Authentication
+- AWS EC2
