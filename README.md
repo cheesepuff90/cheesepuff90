@@ -43,11 +43,12 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 
 ## 📌 Projects & Research
 
-### TriMed Driver App  
+### TriMed Driver & Patient Apps  
 - **Problem:** In underdeveloped regions (e.g., Bangladesh, Indonesia), ambulance fees can exceed half a family’s monthly income, leaving emergencies without affordable transport.  
-- **Solution:** Built a React Native + Expo driver app with Firebase Auth and Firestore. Verified drivers receive real-time ride requests, then use Google Maps API for optimal routing and live GPS updates.  
-- **Result:** Drivers can accept and navigate emergency pickups instantly, cutting transport costs by up to 90% compared to local ambulance rates.  
-- **Stack:** React Native, Expo, Node.js, Firebase Auth, Firestore, Google Maps API  
+- **Solution:** Developed two cross-platform apps in React Native + Expo—one for drivers, one for patients—using Firebase Auth and Firestore. Drivers receive real-time ride requests and navigate via Google Maps API; patients request emergency pickups and track incoming vehicles live.  
+- **Result:** Both apps launch requests and route drivers instantly, reducing transport costs by up to 90% compared to local ambulances; ready for a 50-user pilot in September 2025.  
+- **Stack:** React Native, Expo, Node.js backend, Firebase Auth, Firestore, Google Maps API  
+
 
 ### REACH (iOS App)  
 - **Problem:** College students lacked a campus-specific platform to share course and internship reviews.  
