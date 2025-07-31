@@ -43,17 +43,18 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 
 ## 📌 Projects & Research
 
-### TriMed Driver App
-- **Problem:** Emergency drivers needed a real-time dispatch and map interface.
-- **Solution:** Built a React Native + Expo driver app using Firebase Auth and Firestore.
-- **Result:** Enabled drivers to receive ride requests and see routes with Google Maps.
-- **Stack:** React Native, Node.js, Firebase, Firestore, Google Maps API
+### TriMed Driver App  
+- **Problem:** In many underdeveloped regions (e.g., Bangladesh and Indonesia), traditional ambulance fees can exceed half a family’s monthly income, leaving emergency patients without affordable transport. There was no real-time dispatch system matching volunteers or drivers to those in need at a reasonable cost.  
+- **Solution:** As lead developer, I designed and built a cross-platform driver app in React Native + Expo, integrating Firebase Authentication and Firestore for user management and state. The app authenticates verified drivers, receives incoming ride requests, calculates optimal routes, and streams live GPS updates.  
+- **Result:** Drivers can now accept emergency ride requests within seconds, view turn-by-turn directions via Google Maps API, and complete pickups with minimal delay. This service reduces transport costs by up to 90% compared to local ambulance rates and is on track for a 50-user pilot in September 2025.  
+- **Stack:** React Native, Expo, Node.js backend, Firebase Auth, Firestore, Google Maps API  
 
-### REACH (iOS App)
-- **Problem:** College students lacked a platform to review schools and internships.
-- **Solution:** Built an iOS social network app inspired by Reddit + Glassdoor.
-- **Result:** Community-driven posting, ratings, and search features implemented.
-- **Stack:** React Native, Node.js, Tailwind CSS, AppWrite
+### REACH (iOS App)  
+- **Problem:** College students lacked a unified, campus-specific platform to share honest feedback on courses, internships, and professors. Existing forums were too broad or inconsistent in quality.  
+- **Solution:** I spearheaded development of an iOS social network app inspired by Reddit and Glassdoor. Using React Native, I implemented dynamic feeds that filter posts by institution email domain, interactive rating components for courses/internships, and an intuitive search interface. The backend leverages Node.js and AppWrite for authentication, data storage, and real-time updates, with Tailwind CSS styling for clean UI.  
+- **Result:** Early testers praised the app’s campus-focused content and seamless posting/rating flow. Posts dynamically appear based on the user’s verified college email, fostering a trusted community. Although still in mock-data mode, the core features are ready for real-data integration and beta launch.  
+- **Stack:** React Native, Node.js, Tailwind CSS, AppWrite (Auth + Database), Expo Go  
+
 
 ### CHERground POS System  
 - **Problem:** The existing fashion-retail POS backend was slow, monolithic, and prone to deadlocks under high transaction volume.  
