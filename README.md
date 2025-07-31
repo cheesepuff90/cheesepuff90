@@ -47,7 +47,7 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 - **Problem:** Emergency drivers needed a real-time dispatch and map interface.
 - **Solution:** Built a React Native + Expo driver app using Firebase Auth and Firestore.
 - **Result:** Enabled drivers to receive ride requests and see routes with Google Maps.
-- **Stack:** React Native, Firebase, Google Maps API
+- **Stack:** React Native, Node.js, Firebase, Firestore, Google Maps API
 
 ### REACH (iOS App)
 - **Problem:** College students lacked a platform to review schools and internships.
@@ -59,17 +59,17 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 - **Problem:** The existing fashion-retail POS backend was slow, monolithic, and prone to deadlocks under high transaction volume.  
 - **Solution:** Refactored service in TypeScript + Express with TypeORM using Clean Architecture and dependency injection. Optimized database with batch inserts, query caching, and indexed columns.  
 - **Result:** Reduced average checkout latency by 70% and fully eliminated deadlocks during peak usage.  
-- **Stack:** TypeScript, Express, TypeORM, MySQL, Docker  
+- **Stack:** TypeScript, Nest.js, Express, TypeORM, MySQL, Docker, Slack
 
 ### Movie Ticketing Web App (Bootcamp)  
 - **Problem:** Needed a scalable backend to serve movie listings, seat reservations, and user reviews under concurrent load, plus social login.  
 - **Solution:** Built Django REST API, integrated Kakao OAuth for authentication, containerized with Docker, and deployed behind an AWS Application Load Balancer across multiple EC2 instances.  
 - **Result:** Delivered a robust booking system with real-time seat availability, seamless social login, and horizontal scaling.  
-- **Stack:** Python, Django, Docker, AWS EC2 & RDS, Kakao OAuth  
+- **Stack:** Python, Django, Docker, AWS EC2 & RDS, Kakao OAuth, Trello, Slack
 
 ### E-Commerce Web App (Bootcamp)  
 - **Problem:** Recreate a full-featured e-commerce platform with user accounts, product catalogs, shopping carts, and reviews.  
 - **Solution:** Implemented Django REST endpoints for signup/login, product CRUD, cart management, reviews, “likes,” and point-based ordering. Collaborated in two-week Agile sprints via Slack & Trello.  
 - **Result:** Launched a production‐ready prototype on AWS EC2 with RDS backend, covering all core e-commerce workflows.  
-- **Stack:** Python, Django, MySQL, AWS EC2 & RDS, GitHub  
+- **Stack:** Python, Django, MySQL, AWS EC2 & RDS, GitHub, Trello, Slack
 
