@@ -55,71 +55,21 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 - **Result:** Community-driven posting, ratings, and search features implemented.
 - **Stack:** React Native, Node.js, Tailwind CSS, AppWrite
 
-### CHERground POS
-## Problem
-Needed to create a backend for a web application that could securely manage user authentication, efficiently handle product and cart data, and be modular and scalable for real-world production use.
+### CHERground POS System  
+- **Problem:** The existing fashion-retail POS backend was slow, monolithic, and prone to deadlocks under high transaction volume.  
+- **Solution:** Refactored service in TypeScript + Express with TypeORM using Clean Architecture and dependency injection. Optimized database with batch inserts, query caching, and indexed columns.  
+- **Result:** Reduced average checkout latency by 70% and fully eliminated deadlocks during peak usage.  
+- **Stack:** TypeScript, Express, TypeORM, MySQL, Docker  
 
-## Solution
-Developed a REST API backend using Node.js, TypeScript, and Express, with JWT-based authentication to provide secure user sessions. Data is stored in a MySQL database using TypeORM for robust and type-safe data management. The architecture applies dependency injection for clean separation of concerns and maintainability. The backend is designed to be easily containerized and ready for deployment with Docker.
+### Movie Ticketing Web App (Bootcamp)  
+- **Problem:** Needed a scalable backend to serve movie listings, seat reservations, and user reviews under concurrent load, plus social login.  
+- **Solution:** Built Django REST API, integrated Kakao OAuth for authentication, containerized with Docker, and deployed behind an AWS Application Load Balancer across multiple EC2 instances.  
+- **Result:** Delivered a robust booking system with real-time seat availability, seamless social login, and horizontal scaling.  
+- **Stack:** Python, Django, Docker, AWS EC2 & RDS, Kakao OAuth  
 
-## Result
-- Delivered secure and reliable user authentication and authorization with JWT.
-- Enabled efficient and scalable data management for users, products, carts, and more with MySQL and TypeORM.
-- Achieved modular and maintainable code architecture using TypeScript and dependency injection.
-- Simplified deployment and scaling via Docker compatibility.
-- Provided RESTful endpoints for seamless frontend integration.
+### E-Commerce Web App (Bootcamp)  
+- **Problem:** Recreate a full-featured e-commerce platform with user accounts, product catalogs, shopping carts, and reviews.  
+- **Solution:** Implemented Django REST endpoints for signup/login, product CRUD, cart management, reviews, “likes,” and point-based ordering. Collaborated in two-week Agile sprints via Slack & Trello.  
+- **Result:** Launched a production‐ready prototype on AWS EC2 with RDS backend, covering all core e-commerce workflows.  
+- **Stack:** Python, Django, MySQL, AWS EC2 & RDS, GitHub  
 
-## Stack Used
-- Node.js
-- TypeScript
-- Express
-- REST API
-- MySQL
-- TypeORM
-- JWT Authentication
-- Inversify (Dependency Injection)
-- Docker (deployment-ready)
-
-
-### Movie Ticketing Web App (Bootcamp)
-## Problem
-Needed to design a backend for a web service that could securely manage user authentication, efficiently store and retrieve data, and be easily scalable and maintainable in production.
-
-## Solution
-Built a REST API backend using Python and Django, implementing JWT-based authentication for secure user sessions. Data is stored persistently in MySQL, managed via AWS RDS. The backend service is containerized using Docker, enabling consistent deployment and simplified scaling. The containers are deployed on AWS EC2 for robust, distributed infrastructure.
-
-## Result
-- Delivered secure and reliable user authentication and authorization.
-- Achieved efficient and scalable data management using AWS RDS and MySQL.
-- Simplified deployment and maintenance through Docker containerization.
-- Leveraged AWS EC2 for easy scaling and high availability.
-- Enabled seamless integration with frontend services via RESTful endpoints.
-
-## Stack Used
-- Python
-- Django
-- REST API
-- MySQL (AWS RDS)
-- JWT Authentication
-- Docker
-- AWS EC2
-
-### E-commerce Web App (Bootcamp)
-## Problem
-Building a scalable, maintainable backend for a web service with secure user authentication and efficient data management.
-
-## Solution
-Developed a REST API backend using Python, with JWT-based authentication and MySQL for persistent data storage. The system is distributed and hosted on AWS EC2, with MySQL managed via AWS RDS.
-
-## Result
-- Achieved reliable user authentication and authorization.
-- Enabled easy scaling and maintenance via AWS infrastructure.
-- Supported seamless integration with frontend services.
-
-## Stack Used
-- Python
-- Django
-- REST API
-- MySQL (AWS RDS)
-- JWT Authentication
-- AWS EC2
