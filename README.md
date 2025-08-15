@@ -41,6 +41,12 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 
 ---
 
+## 📌 Research
+### Stabilizing DNN & Human Neuroimaging
+
+### Perceptual Initialization
+[paper](https://chat.openai.com/)
+
 ## 📌 Projects
 
 ### TriMed Driver & Patient Apps  
