@@ -44,7 +44,7 @@ I also serve as the lead engineer of **TriMed**, a startup building a mobile app
 ## 📌 Research
 ### Stabilizing DNN & Human Neuroimaging
 
-### Perceptual Initialization  [Paper](https://chat.openai.com/)
+### Perceptual Initialization  [Paper](https://arxiv.org/pdf/2505.14204)
 
 ## 📌 Projects
 
